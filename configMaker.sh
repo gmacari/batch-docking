@@ -6,11 +6,11 @@
 #and that the names are the same in each directory
 
 #assigning some paths and variables
-MGLpath = /home/poltix/mgltools_x86_64Linux2_1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/
-pshpath = /home/poltix/mgltools_x86_64Linux2_1.5.6/bin
-cage_gen_path = /home/poltix
-rece = "receptor.pdb"
-lig = "crystal_ligand.mol2"
+MGLpath=/home/poltix/mgltools_x86_64Linux2_1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/
+pshpath=/home/poltix/mgltools_x86_64Linux2_1.5.6/bin
+cage_gen_path=/home/poltix
+rece="receptor.pdb"
+lig="crystal_ligand.mol2"
 
 for d in */ ; do
 	#cleanining dir_name
